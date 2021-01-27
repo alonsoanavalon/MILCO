@@ -1,0 +1,93 @@
+.main-image {
+    background-image: url("/images/main-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    max-width:100%;
+    
+}
+
+.main-image {
+
+    position: relative;
+    font-family: 'Oswald';
+    font-weight: 400;
+
+
+    .nav {
+
+        display: flex;
+
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+
+
+        img {
+            width:320px;
+        }
+
+        .nav-btn {
+            position:absolute;
+            right:3rem;
+            top: 2.5rem;
+            border:none;
+            outline:none;
+            background-color:$cafe-mostaza;
+            cursor: pointer;
+            padding:0;
+            margin:0;
+            width:50px;
+            height:50px;
+            font-size:1.2rem;
+            color:#e7d3c2;
+            border-radius:  50%          ;
+            -webkit-border-radius:  50%          ;
+            -moz-border-radius:  50%          ;
+            -ms-border-radius:  50%          ;
+            -o-border-radius:  50%          ;
+        }
+
+        .nav-menu {
+
+            .nav-ul {
+                list-style: none;
+
+
+                img {
+                    width:200px;
+                }
+                li {
+                    display:inline-block;
+                    padding:.5rem;
+                    a {
+                        text-decoration: none;
+                        color:#fff;
+                        font-size: 1.5rem;
+                       
+                    }
+                }
+            }
+
+        }
+    
+       
+    }
+
+    .milco-btn {
+        position:absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        outline: none;
+        
+        img {
+            width:100px;
+            
+        }
+    }
+    
+}

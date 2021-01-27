@@ -1,0 +1,348 @@
+@media (max-width: 767px) {
+
+    .main-image {
+
+        .nav {
+
+         
+
+            justify-content: start;
+            img {
+                width:280px;
+            }
+
+            .nav-btn {
+                top:2rem;
+                right:1.5rem;
+            }
+        }
+
+
+        .nav-menu {
+            .nav-ul   {
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                height:100%;
+                align-content: center;
+                justify-content: center;
+           
+               
+    
+                li {
+                    
+                    a{
+                 
+                        display: inline-block;
+                        padding:1rem;
+           
+                    }
+                }
+    
+            }
+            position:fixed;
+            z-index:998;
+            width:100%;
+            background-color: $cafe-footer;
+      
+            top:0;
+            bottom:0;
+            right: 0;
+            left: 0;
+            transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            -moz-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            -o-transform: translateX(100%);
+        }
+
+        .nav-menu.active {
+            transform: translateX(0%);
+            -webkit-transform: translateX(0%);
+            -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+            -o-transform: translateX(0%);
+        }
+    
+
+
+    }
+
+    
+
+
+    .granos-menu {
+
+
+        .menu-header {
+            
+            text-align: center;
+
+    
+            h1 {
+                width:60%;
+                min-width:300px;
+
+                font-family: 'Oswald';
+                letter-spacing: .15rem;
+                margin:0 auto   ;
+            }
+        }
+
+        .menu-cards {
+
+      
+            .card {
+                
+                font-family: 'Oswald';
+                margin:1rem;
+          
+                min-width:300px;
+                width:40%;
+                max-width:500px;            
+     
+                height:450px;
+    
+            }
+        }
+
+    }
+
+
+    .mas-vendido {
+        .grid-images {
+
+            display:grid;
+            width:80%;
+            margin:0 auto;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: "negra"
+                                 "blanca"
+                                 "sobres"; 
+            grid-gap:1rem;
+            justify-items: center;
+
+        }
+    }
+
+    .footer {
+
+        .footer-item {
+         
+
+            font-size:1rem;
+
+            .footer-item-ul {
+                font-size:1rem;
+               
+            }
+    
+        }
+
+        #footer-item-locales > h5 , p {
+            font-size:1rem;
+           }
+    }
+
+               
+     
+
+
+    /* Mediaqueries articulos */
+
+    .header-articulos {
+
+
+
+        .nav-articulos {
+
+            justify-content: start;
+
+
+            img {
+                width:280px ;
+            }
+
+            .nav-btn {
+                top:2rem;
+                right:1.5rem;
+            }
+        }
+
+
+        .nav-menu {
+            .nav-ul   {
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                height:100%;
+                align-content: center;
+                justify-content: center;
+               
+    
+                li {
+                    a{
+                        display: inline-block;
+                        padding:1rem;
+                     
+                    }
+                }
+    
+            }
+            position:fixed;
+            z-index:998;
+            width:100%;
+            background-color: $cafe-claro;
+            opacity: 1;
+            top:0;
+            bottom:0;
+            right: 0;
+            left: 0;
+            transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            -moz-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            -o-transform: translateX(100%);
+        }
+
+        .nav-menu.active {
+            transform: translateX(0%);
+            -webkit-transform: translateX(0%);
+            -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+            -o-transform: translateX(0%);
+        }
+    
+    }  
+    
+    .title-image {
+        min-width:300px;
+        text-align: center;
+
+        .title-container {
+
+            width:70%;
+
+            h1 {
+
+               
+                font-size:2rem;
+            }
+
+        }
+    }
+
+    .items {
+
+        width:80%;
+
+
+    
+
+        .items-element {
+            display: flex;
+            flex-wrap: wrap;
+            padding:0;
+            margin:0;
+            justify-content: center;
+
+            img {
+                width: 45%;
+                margin:.1rem;
+                min-width:220px;
+            }
+        }  
+    }
+
+    /* Mediaqueries NOSOTRTOS */
+
+    .body-nosotros {
+
+        .nosotros {
+            .nosotros-title {
+                font-size:1.7rem;
+            }
+        }
+
+        .proceso {
+    
+            width:80%;
+
+            .proceso-title {
+                font-size:1.7rem;
+            }
+            
+        
+            .proceso-pasos {
+
+                .imagen-pasos{
+                    min-width:100%;
+         
+                }
+
+                .texto-pasos{
+                    width:100%;
+
+                }
+    
+                div:nth-child(1) {
+                    order:-1;
+    
+         
+                }
+                div:nth-child(2) {
+                    
+                    order:0;
+    
+                }
+                div:nth-child(3) {
+
+                    order:2;
+                }
+                div:nth-child(4) {
+     
+                    order:1
+                }
+                div:nth-child(5) {
+        
+                    order:3;
+                }
+                div:nth-child(6) {
+            
+                    order:4;
+                }
+            
+            
+            }
+        }
+    }
+
+    .container-contact__form {
+
+        width:70%;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .body-articulos {
+        .items {
+            .items-category {
+                ul {
+                    li {
+                        font-size:1rem;
+                    }
+                }
+            }
+            .items-element {
+                img {
+                    width:100%;
+                }
+            }
+        }
+    }
+
+
+}

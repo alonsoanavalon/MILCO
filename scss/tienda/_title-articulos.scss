@@ -1,0 +1,31 @@
+.title-image {
+    width:70%;
+
+    min-width:600px;
+
+    background-image: url("/images/granos-articulos.jpg");
+    background-size: cover;
+    height:250px;
+    margin: 3rem auto;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    
+
+    .title-container {
+  
+        font-family:'Oswald';
+        color:$cafe-mostaza;
+        background-color: #fff;
+
+
+        h1 {
+            padding: .5rem;
+            margin:0;
+        }
+
+
+    }
+}

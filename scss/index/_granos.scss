@@ -1,0 +1,136 @@
+.granos-menu {
+
+    .line-separator {
+        
+        width:150px;
+        height:3px;
+        background-color:$cafe-oscuro;
+        margin: 2rem auto 0;
+
+    }
+
+    margin-top:1rem;
+    .menu-header {
+        
+        text-align: center;
+       
+        h5 {
+            font-family: 'Open Sans';
+            font-size: 1.5rem;
+            color: $cafe-oscuro;
+            font-weight: lighter;
+        }
+
+        h1 {
+            width:600px;
+            font-family: 'Oswald';
+            letter-spacing: .15rem;
+            margin:0 auto   ;
+        }
+    }
+
+    .menu-cards {
+        margin:5rem 0;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+        .card {
+            
+            font-family: 'Oswald';
+            margin:1rem;
+      
+            min-width:350px;
+            width:40%;
+            max-width:500px;            
+            
+            height:450px;
+            
+            border-radius:.8rem    ;
+            -webkit-border-radius:.8rem    ;
+            -moz-border-radius:.8rem    ;
+            -ms-border-radius:.8rem    ;
+            -o-border-radius:.8rem    ;
+        }
+
+        .card:hover {
+            opacity:1;
+        }
+        
+    
+        .menu-cards__granos {
+    
+            background-image: url("/images/granos.jpg");
+            background-size: cover;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+    
+            h3 {
+                color:#fff;
+                font-size:2rem;      
+            }
+    
+        }
+    
+        .menu-cards__menu {
+    
+            align-items: center;
+            background-image: url("/images/menu.jpg");
+            background-size: cover;
+            display: flex;
+            opacity: 0.8;
+            justify-content: center;
+            h3 {
+                color:#fff;
+                font-size:2rem;      
+            }
+        }
+    
+      
+    }
+
+    .our-blog {
+        background-image: url("/images/granos-blog.jpg");
+        background-size: cover;
+        background-position: center;
+        height:300px;
+        
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+            color:#Fff;
+            font-family: 'Oswald';
+            letter-spacing: .15rem;
+            font-size:2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color:#fff;
+            border-radius:.5rem;
+            padding:1rem 2rem;
+            background-color: rgba(204, 204, 204, 0.219);
+            opacity:.9;
+            -webkit-border-radius:.5rem;
+            -moz-border-radius:.5rem;
+            -ms-border-radius:.5rem;
+            -o-border-radius:.5rem;
+            font-family: 'Open Sans' ;
+        }
+
+        a:hover {
+            opacity:1;
+        }
+
+    }
+}
+

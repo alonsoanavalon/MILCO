@@ -1,0 +1,107 @@
+.footer {
+
+    .footer-area {
+        background-color: $cafe-footer;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding:2rem 0;
+        text-align: center;
+        .footer-item {
+            width:33%;
+            min-width:300px;
+            text-align: center;
+            font-family: 'Oswald';
+            color:$cafe-mostaza;
+            font-size:1.2rem;
+
+            .footer-item-ul {
+                text-align: center;
+                color:$cafe-claro;
+                list-style: none;
+                padding:0;
+                margin:0;
+                font-family: 'Oswald';
+
+
+                li {
+                    padding:.3rem 0;
+                }
+            }
+            
+        }
+
+        .footer-horarios {
+            .footer-item-ul {
+                font-family: 'Oswald';
+            }
+        }
+        
+        #footer-item-locales > h5 , p {
+         padding:.3rem;
+         margin:0;
+       
+        }
+      
+    }
+
+    .footer-bottom {
+        margin:0;
+        padding:0;
+        height:200px;
+        background-color: rgb(29, 27, 27);
+        text-align: center;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        color:$cafe-claro;
+        font-family: 'Open Sans';
+
+        > div {
+            width:33%;
+            min-width:300px;
+        }
+
+        .creado-por {
+            p {
+                a {
+                    text-decoration: none;
+                    color:$cafe-mostaza;
+                }
+            }
+        }
+
+        .contacto-redes {
+            text-align: center;
+
+
+        
+           ul {
+               list-style: none;
+  
+               
+               padding:0;
+               li {
+                   display: inline;
+                   margin:0 .5rem;
+                   font-size: 1.5rem;
+                   a {
+                       text-decoration: none;
+                       color:$cafe-claro;
+                   }
+                   a:hover {
+                       color:$cafe-mostaza;
+                   }
+               }
+           }
+        }
+
+
+    }
+
+}
+

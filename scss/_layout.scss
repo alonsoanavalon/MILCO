@@ -1,0 +1,30 @@
+body {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template: "main-image" 80vh
+                   "granos" auto
+                   "vendido" auto
+                   "escribenos" auto
+                   "footer" auto;
+}
+
+.main-image{
+    grid-area: main-image;
+}
+
+.granos-menu {
+    grid-area: granos;
+}
+
+.mas-vendido {
+    grid-area: vendido;
+}
+
+.escribenos {
+    grid-area:escribenos;
+}
+
+.footer {
+    grid-area:footer;
+}

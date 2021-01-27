@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+<body class="body-contacto">
+    <div class="main-image">
+        <header class="header">
+            <div class="nav">
+                <a href="/index.html"><img src="/images/milco-nav.png" alt=""></a>
+          
+                <button class="nav-btn hidden" id="btn-menu"><i class="fas fa-bars"></i></button>
+                    <nav class="nav-menu">
+                        <ul class="nav-ul">
+                            <li class="nav-ul__item hidden" id="img-menu"><a href="/index.html"><img src="/images/milco-nav.png" alt=""></a></li>                               <li class="nav-ul__item"><a href="/index.html">Inicio</a></li>
+                            <li class="nav-ul__item"><a href="/nosotros.html">Nosotros</a></li>
+                            <li class="nav-ul__item"><a href="/articulos.html">Tienda</a></li>
+                            <li class="nav-ul__item"><a href="/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+    </div>
+    <section class="contacto">
+        <h3>Contáctanos</h3>
+        <div class="container-contact">
+            <form class="container-contact__form" id ="contact-form" action="correo.php" method="POST">  
+                        <label>Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                        <label>Asunto</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
+                        <input type="submit" id="submit" value="Enviar">
+            </form> 
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="footer-area">
+            <div class="footer-horarios footer-item">
+                <h3>HORARIOS DE ATENCIÓN</h3>
+                <ul class="footer-item-ul">
+                    <li>Lunes: 08:00 - 21:00</li>
+                    <li>Martes: 08:00 - 21:00</li>
+                    <li>Miércoles: 08:00 - 21:00</li>
+                    <li>Jueves: 08:00 - 21:00</li>
+                    <li>Viernes: 08:00 - 21:00</li>
+                    <li>Sábado: 08:00 - 21:00</li>
+                    <li>Domingo: 08:00 - 19:00</li>
+ 
+                
+                </ul>
+            </div>
+            <div class="footer-locales footer-item">
+                <h3>NUESTROS LOCALES</h3>
+                <div class="footer-item-ul" id="footer-item-locales">
+                    <h5>Carlos Antúnez Nº 1895, Providencia</h5>
+                    <p>Región Metropolitana, Chile</p>
+                    <h5>Esopo 1051, Maipú</h5>
+                    <p>Región Metropolitana, Chile</p>
+                </div>
+     
+            </div>
+            <div class="footer-contacto footer-item">
+                <h3>CONTÁCTANOS</h3>
+                <ul class="footer-item-ul">
+                    <li>contacto@milco.cl</li>
+                    <li>Carlos Antúnez Nº 1895, Providencia</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="creado-por">
+                <p>Sitio creado por <a href="https://github.com/k3yzen">k3yzen</a></p>
+            </div>
+            <div class="contacto-redes">
+                <ul>
+
+                    <li><a href=""><i class="icon-rrss fab fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="icon-rrss fab fa-whatsapp-square"></i></a></li>
+                    <li><a href=""><i class="icon-rrss fas fa-envelope"></i></a></li>
+                </ul>
+
+            </div>
+
+            <div class="derechos">
+                <p>© 2019 – 2021 Todos los derechos reservados</p>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

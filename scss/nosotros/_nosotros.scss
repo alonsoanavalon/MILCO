@@ -1,0 +1,26 @@
+.body-nosotros {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template: "main-image" 60vh
+                   "nosotros" auto
+                   "proceso" auto
+                   "footer" auto;
+}
+
+.main-image{
+    grid-area: main-image;
+}
+
+.nosotros {
+    grid-area: nosotros;
+}
+
+.proceso{
+    grid-area: proceso;
+}
+
+
+.footer {
+    grid-area:footer;
+}

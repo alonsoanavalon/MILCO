@@ -1,0 +1,78 @@
+.mas-vendido {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size:1.5rem;
+
+    h2 {
+        padding:3rem;
+    }
+
+    .grid-images {
+        display:grid;
+        width:70%;
+        margin:0 auto;
+        grid-template-columns: 38% 62%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "negra sobres"
+                             "blanca sobres"; 
+        grid-gap:0;
+        justify-items: center;
+
+        .taza-negra {
+            grid-area:negra;
+            height:100%;
+            cursor: pointer;
+        }
+    
+        .taza-blanca {
+            grid-area:blanca;
+            height:100%;
+            cursor: pointer;
+        }
+    
+        .sobres-milco {
+            grid-area: sobres;
+            height:100%;
+            max-width:100%;
+            cursor: pointer;
+        }
+  
+    }
+
+    .info-milco {
+        width:85%;
+        margin: 5rem auto;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .info {
+
+            max-width:400px;
+            width:25%;
+            min-width:300px;
+
+            #seed,
+            #cafe,
+            #store,
+            #cart {
+               font-size:3rem;
+               color:$cafe-mostaza;
+            }
+
+            h3 {
+                font-size:1.5rem;
+            }
+
+            p {
+                font-size:1rem;
+                font-family: 'Open Sans';
+                line-height:1.5rem;
+            }
+
+        }
+    }
+
+   
+
+}
+

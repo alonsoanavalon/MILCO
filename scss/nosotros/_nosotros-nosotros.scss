@@ -1,0 +1,21 @@
+.nosotros {
+    width:70%;
+    margin: 0 auto;
+    .nosotros-title {
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 500;
+        color:$cafe-oscuro;
+        margin-top:2rem;
+    }
+    .nosotros-parrafos {
+        margin:3rem 0;
+        
+        p {
+     
+            font-family: 'Open Sans';
+            
+        }
+    }
+}
+
