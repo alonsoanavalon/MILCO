@@ -7,7 +7,7 @@ $asunto = $_POST['asunto'];
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 
-$destinatario = "gray.import.export@gmail.com";
+$destinatario = "alonso.anavalon@gmail.com";
 
 $carta = "De: $nombre \n";
 $carta .= "Correo: $email \n";

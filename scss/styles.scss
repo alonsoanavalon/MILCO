@@ -63,6 +63,11 @@ body {
     visibility: hidden;
     opacity: 0;
     position: absolute;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 
@@ -73,3 +78,57 @@ body {
 .body-nosotros {
     margin:0 auto;
 }
+
+
+/* Dark mode */
+
+.dark-body {
+    background-color: #1d1b1b;
+    color:#FCF9F6;
+
+    i {
+        color:$cafe-claro;
+    }
+}
+
+.btn-mode {
+    position: fixed;
+
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    bottom:2rem;
+    left:2rem;
+    font-size:2rem;
+    border: none;
+    width:40px;
+    height:40px;
+    background-color: inherit;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.scrollUp-btn  {
+
+    position: fixed;
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    bottom:2rem;
+    right:2rem;
+    font-size:2rem;
+    border: none;
+    width:40px;
+    height:40px;
+    background-color: inherit;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+
