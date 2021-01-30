@@ -321,8 +321,18 @@
     .container-contact__form {
 
         width:70%;
+
+        
     }
 
+    
+    .container-contact__form > textarea {
+        min-height:200px;
+        max-height:600px;
+    
+        max-width: 300px;
+     
+    }
 }
 
 @media (max-width: 580px) {

@@ -328,7 +328,7 @@ body {
   grid-area: footer; }
 
 .main-image {
-  background-image: url("/images/main-image.jpg");
+  background-image: url("https://github.com/k3yzen/MILCO/blob/main/images/main-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,7 +427,7 @@ body {
     .granos-menu .menu-cards .card:hover {
       opacity: 1; }
     .granos-menu .menu-cards .menu-cards__granos {
-      background-image: url("/images/granos.jpg");
+      background-image: url("https://github.com/k3yzen/MILCO/blob/main/images/granos.jpg");
       background-size: cover;
       opacity: 0.8;
       display: flex;
@@ -438,7 +438,7 @@ body {
         font-size: 2rem; }
     .granos-menu .menu-cards .menu-cards__menu {
       align-items: center;
-      background-image: url("/images/menu.jpg");
+      background-image: url("https://github.com/k3yzen/MILCO/blob/main/images/menu.jpg");
       background-size: cover;
       display: flex;
       opacity: 0.8;
@@ -447,7 +447,7 @@ body {
         color: #fff;
         font-size: 2rem; }
   .granos-menu .our-blog {
-    background-image: url("/images/granos-blog.jpg");
+    background-image: url("https://github.com/k3yzen/MILCO/blob/main/images/granos-blog.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -528,7 +528,7 @@ body {
         line-height: 1.5rem; }
 
 .escribenos {
-  background-image: url("/images/granos-escribenos.jpg");
+  background-image: url("https://github.com/k3yzen/MILCO/blob/main/images/granos-escribenos.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -878,8 +878,9 @@ form {
 
 .container-contact__form > textarea {
   min-height: 200px;
-  max-height: 300px;
-  max-width: 100%; }
+  max-height: 600px;
+  max-width: 700px;
+  min-width: 300px; }
 
 #submit {
   width: 100px; }
@@ -1045,7 +1046,12 @@ label {
       order: 4; }
 
   .container-contact__form {
-    width: 70%; } }
+    width: 70%; }
+
+  .container-contact__form > textarea {
+    min-height: 200px;
+    max-height: 600px;
+    max-width: 300px; } }
 @media (max-width: 580px) {
   .body-articulos .items .items-category ul li {
     font-size: 1rem; }
@@ -1082,7 +1088,7 @@ body {
 .dark-body {
   background-color: #1d1b1b;
   color: #FCF9F6; }
-  .dark-body i {
+  .dark-body i, .dark-body h3 {
     color: #FCF9F6; }
 
 .btn-mode {
