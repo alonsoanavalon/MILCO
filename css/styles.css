@@ -490,7 +490,8 @@ body {
     grid-template-rows: auto auto;
     grid-template-areas: "negra sobres" "blanca sobres";
     grid-gap: 0;
-    justify-items: center; }
+    justify-items: center;
+    height: auto; }
     .mas-vendido .grid-images .taza-negra {
       grid-area: negra;
       height: 100%;
